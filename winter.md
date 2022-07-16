@@ -1,8 +1,15 @@
-<body>    
-  <div class="jumbotron">
+<body>
+<div class="topnav" id="myTopnav">
+   <a href="#home">Home</a>
+   <a href="#bike">Bike</a>
+   <a href="ski">Ski</a>
+   <a href="#blog">Blog</a><hr>
+  </div>
+
+<div class="jumbotron">
     <br><br><br><br><br><h1>PNW Winter Van Trips</h1><br>
       <hr><hr>
-  </div>
+</div>
 <div class="row">
   <div class="column">
     <h2>Olympic Peninsula</h2>
