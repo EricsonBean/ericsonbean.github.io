@@ -19,6 +19,7 @@ a:link {text-decoration: none;}
 .row:after{content:"";display:table;clear:both;}
 @media screen and (max-width:600px) {.column {width:100%;}}
 
+.intro{background-color:black;color:whitesmoke;}
 
 .grid-container {display: grid;grid-template-columns: 70px 350px auto;gap: 0px;padding: 0px;}
 .grid-container > div {text-align:left;padding:0px;gap:0px;font-size: 30px;}
