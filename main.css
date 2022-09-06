@@ -4,6 +4,8 @@
 .topnav a:hover {color: grey;}
 .topnav .icon {display: none;}
 
+.jumbotron{background-image:(img/IMG_0810.jpg);}
+
 
 h1{color:navy;text-align:center;font-family:verdana;font-size:36px}
 h2{color:navy;text-align:center;font-family:verdana;font-size:25px}
