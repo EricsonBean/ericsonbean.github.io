@@ -15,7 +15,7 @@ p2{color:black;font-family:verdana;font-size:15px;margin-left: 20px;}
 
 a:link {text-decoration: none;}
 
-.column{float:left;width:auto;padding:5px;}
+.column{float:center;width:auto;padding:5px;}
 .row:after{content:"";display:table;clear:both;}
 
 .intro{background-color:black;color:whitesmoke;}
