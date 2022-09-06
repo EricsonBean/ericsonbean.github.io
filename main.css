@@ -1,4 +1,4 @@
-.topnav {background-color: #fff;float:center;text-align:center;font-family:verdana;font-size:36px}
+.topnav {float:center;text-align:center;font-family:verdana;font-size:36px}
 .topnav a {float: middle;display: block;color: #000;text-align:center;padding:30px;text-decoration:none;
   font-size:17px;display:inline;}
 .topnav a:hover {color: grey;}
