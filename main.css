@@ -18,7 +18,7 @@ a:link {text-decoration: none;}
 .column{float:center;width:auto;padding:5px;}
 .row:after{content:"";display:table;clear:both;}
 
-.intro{background-color:black;color:whitesmoke;}
+.intro{background-color:rgb(13, 15, 14);color:whitesmoke;}
 
 .grid-container {display: grid;grid-template-columns: 70px 350px auto;gap: 0px;padding: 0px;}
 .grid-container > div {text-align:left;padding:0px;gap:0px;font-size: 30px;}
