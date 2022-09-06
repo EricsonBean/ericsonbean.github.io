@@ -4,7 +4,7 @@
 .topnav a:hover {color: grey;}
 .topnav .icon {display: none;}
 
-.jumbotron{background-image: url("img/IMG_0810.jpg");}
+.jumbotron{background-image: url("/img/IMG_0810.jpg");}
 
 
 h1{color:navy;text-align:center;font-family:verdana;font-size:36px}
