@@ -1,3 +1,7 @@
+@font-face {
+  font-family: overpass;
+  src: url(/fonts/Overpass-Light.ttf)}
+
 body{margin:0;}
 .topnav {float:center;text-align:center;font-family:verdana;font-size:24px;padding-top:20px;}
 .topnav a {float: middle;display: block;color: rgb(255, 255, 255);text-align:center;
@@ -13,8 +17,8 @@ body{margin:0;}
 h1{color:rgb(0, 0, 0);text-align:center;font-family:verdana;font-size:60px;}
 h2{color:rgb(255, 255, 255);text-align:center;font-family:verdana;font-size:40px;}
 h3{color:rgb(255,255,255);font-family:verdana;text-align:center;font-size:18px;}
-p1{color:rgb(255, 255, 255);font-family:verdana;font-size:18px}
-p2{color:rgb(255, 255, 255);font-family:verdana;font-size:15px;margin-left: 20px;}
+p1{color:rgb(255, 255, 255);font-family:overpass;font-size:18px}
+p2{color:rgb(255, 255, 255);font-family:overpass;font-size:15px;margin-left: 20px;}
 
 a:link {color:white; text-decoration: none;}
 a:visited{color:white;text-decoration: none;}
@@ -42,5 +46,8 @@ a:visited{color:white;text-decoration: none;}
   .item5{grid-area:3/1}
   .item6{grid-area:3/2;}
   .item7{grid-area:5/1;}
-  .item8{grid-area:5/2;}
-}
+  .item8{grid-area:5/2;}}
+
+  
+
+    
