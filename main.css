@@ -12,14 +12,12 @@ body{margin:0;}
 
 h1{color:rgb(0, 0, 0);text-align:center;font-family:verdana;font-size:60px;}
 h2{color:rgb(255, 255, 255);text-align:center;font-family:verdana;font: size 40px;}
-h3{color:rgb(255,255,255);font-family:verdana;text-align:center;font-size:16px}
+h3{color:rgb(255,255,255);font-family:verdana;text-align:center;font-size:24px}
 p1{color:rgb(255, 255, 255);font-family:verdana;font-size:18px}
-p2{color:black;font-family:verdana;font-size:15px;margin-left: 20px;}
+p2{color:rgb(255, 255, 255);font-family:verdana;font-size:15px;margin-left: 20px;}
 
-a:link {text-decoration: none;}
-a:visited{text-decoration: none;}
-h:link{text-decoration: none;}
-h:visited{text-decoration: none;}
+a:link {color:white; text-decoration: none;}
+a:visited{color:white;text-decoration: none;}
 
 .column3{float:left;width:30%;padding:5px;}
 .column2{float:left;width:45%;padding:5px;}
