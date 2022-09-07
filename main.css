@@ -27,7 +27,7 @@ a:visited{color:white;text-decoration: none;}
 .blog{background-color:rgb(49, 54, 51);}
 
 .grid-container {background-color:rgb(49, 54, 51);display:grid;grid-template-columns: 70px 350px auto;gap:0px;padding:0px;}
-.grid-container > div {text-align:left;padding:0px;gap:0px;font-size: 30px;}
+.grid-container > div {text-align:left;padding:10px;gap:10px;}
   .item1 {grid-column:1/4}
   .item2 {grid-area:2/1}
   .item3 {grid-area:2/2}
