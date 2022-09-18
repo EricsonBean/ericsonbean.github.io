@@ -30,7 +30,7 @@ a:visited{color:white;text-decoration:none;font-weight:bold;}
 .blog{background-color:rgb(49, 54, 51);padding: 80px 40px 80px 40px; gap:20px;}
 
 .grid-container {background-color:rgb(49, 54, 51);display:grid;grid-template-columns: 70px 500px auto;
-                  padding: 80px 20px 80px 20px; gap:20px;}
+                  padding: 80px 40px 80px 40px; gap:20px;}
 .grid-container > div {text-align:left;}
   .item1 {grid-column:1/4}
   .item2 {grid-area:2/1}
