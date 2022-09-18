@@ -22,12 +22,12 @@ p2{color:rgb(255, 255, 255);font-family:overpass;font-size:16px;margin-left: 20p
 a:link {color:white;text-decoration:none;font-weight:bold;}
 a:visited{color:white;text-decoration:none;font-weight:bold;}
 
-.column3{float:left;width:30%;padding:5px;}
+.column3{float:left;width:30%;padding:20px;}
 .column2{float:left;width:45%;padding:20px;}
 
 .row{background-color:rgb(49, 54, 51);}
 .row:after{content:"";display:table;clear:both;}
-.blog{background-color:rgb(49, 54, 51);padding: 80px 20px 80px 20px; gap:20px;}
+.blog{background-color:rgb(49, 54, 51);padding: 80px 40px 80px 40px; gap:20px;}
 
 .grid-container {background-color:rgb(49, 54, 51);display:grid;grid-template-columns: 70px 500px auto;
                   padding: 80px 20px 80px 20px; gap:20px;}
