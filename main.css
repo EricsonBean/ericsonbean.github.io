@@ -27,7 +27,7 @@ a:visited{color:white;text-decoration:none;font-weight:bold;}
 
 .row{background-color:rgb(49, 54, 51);}
 .row:after{content:"";display:table;clear:both;}
-.blog{background-color:rgb(49, 54, 51);}
+.blog{background-color:rgb(49, 54, 51);padding: 20px 80px 20px 80px; gap:20px;}
 
 .grid-container {background-color:rgb(49, 54, 51);display:grid;grid-template-columns: 70px 500px auto;
                   padding: 20px 80px 20px 80px; gap:20px;}
