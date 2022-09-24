@@ -36,7 +36,8 @@ a:visited{color:white;text-decoration:none;font-weight:bold;}
                   grid-template-areas:'item1 item1 item1'
                                       'item2 item3 item4'
                                       'item5 item6 item4'
-                                      'item7 item8 item4';
+                                      'item7 item8 item4'
+                                      'item9 item9 item4';
                     grid-template-columns: 70px 500px auto;}
 
 .grid-container > div {text-align:left;}
@@ -48,13 +49,15 @@ a:visited{color:white;text-decoration:none;font-weight:bold;}
  .item6 {grid-area:item6;}
  .item7 {grid-area:item7;}
  .item8 {grid-area:item8;}
+ .item9 {grid-area:item9;}
 @media only screen and (max-width: 1000px){
  .grid-container{grid-template-areas:'item1 item1 item1'
                                      'item2 item3 item3'
                                      'item5 item6 item6'
                                      'item4 item4 item4'
-                                     'item7 item8 item8';
-                 grid-template-columns: 70px 0px auto;}}
+                                     'item7 item8 item8'
+                                     'item9 item9 item9';
+                 grid-template-columns: 50px 0px auto;}}
 
 
   
