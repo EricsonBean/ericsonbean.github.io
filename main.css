@@ -7,8 +7,8 @@
 .topnav a:hover {color: grey;}
 .topnav .icon {display: none;}
 
-.jumbotron{background-image:url("/img/bkg.jpg");background-attachment:fixed;background-size:contain;
-            height:1000px;background-repeat:no-repeat;margin:0px;}
+.jumbotron{background-image:url("/img/bkg.jpg");background-attachment:fixed;background-size:cover;
+            max-height:1000px;background-repeat:no-repeat;margin:0px;}
 
 .intro{background-color:rgb(49, 54, 51, .95);padding:50px;margin:40px 40px 80px 40px;}
 
@@ -50,7 +50,7 @@ a:visited{color:white;text-decoration:none;font-weight:bold;}
  .item7 {grid-area:item7;}
  .item8 {grid-area:item8;}
  .item9 {grid-area:item9;}
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 1200px){
  .grid-container{grid-template-areas:'item1 item1 item1'
                                      'item2 item3 item3'
                                      'item5 item6 item6'
