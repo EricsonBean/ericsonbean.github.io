@@ -7,10 +7,10 @@
 .topnav a:hover {color: grey;}
 .topnav .icon {display: none;}
 
-.jumbotron{background-image:url("/img/bkg.jpg");background-attachment:fixed;background-size:1000px auto;
-            height:1000px;background-repeat:no-repeat;margin:0px;}
-@media only screen and {max-width: 1200px;}{
-      .jumbtotron{height: 500px;}}
+.jumbotron{background-image:url("/img/bkg.jpg");background-attachment:fixed;background-size:auto 1000px;
+            height:1000px;background-repeat:no-repeat;margin:0px;background-position:center;}
+@media only screen and (max-width: 1200px){
+      .jumbtotron{height: 500px;background-size:auto 500px;}}
   
 .intro{background-color:rgb(49, 54, 51, .95);padding:50px;margin:40px 40px 80px 40px;}
 
