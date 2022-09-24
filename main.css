@@ -7,13 +7,15 @@
 .topnav a:hover {color: grey;}
 .topnav .icon {display: none;}
 
-.jumbotron{background-image:url("/img/bkg.jpg");background-attachment:fixed;background-size:cover;
-            max-height:1000px;background-repeat:no-repeat;margin:0px;}
-
+.jumbotron{background-image:url("/img/bkg.jpg");background-attachment:fixed;background-size:auto auto;
+            height:1000px;background-repeat:no-repeat;margin:0px;}
+@media only screen and {max max-width: 1200px;}{
+      .jumbtotron{height: 500px;}}
+  
 .intro{background-color:rgb(49, 54, 51, .95);padding:50px;margin:40px 40px 80px 40px;}
 
 .body{background-image: url("/img/tree_bkg.jpg");margin:0px 0px 0px 0px;background-attachment: fixed;
-      background-size: contain;background-repeat: no-repeat;padding-top:40px;}
+      background-size: cover;background-repeat: no-repeat;padding-top:40px;}
 
 h1{color:rgb(0, 0, 0);text-align:center;font-family:IBM;font-size:80px;}
 h2{color:rgb(255, 255, 255);text-align:center;font-family:IBM;font-size:50px;}
