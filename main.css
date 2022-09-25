@@ -1,14 +1,15 @@
 @font-face {font-family:overpass;src:url(/fonts/Overpass-Light.ttf);}
 @font-face {font-family:IBM;src:url(/fonts/IBMPlexSans-Medium.ttf);}
 
+.jumbotron{background-image:url("/img/bkg.jpg");background-attachment:fixed;background-size:cover;
+            height:1000px;background-repeat:no-repeat;margin:0px;background-position:center;
+            position: absolute;top: 50%;width: 100%;text-align: center;}
+
 .topnav {float:center;text-align:center;font-family:IBM;font-size:24px;padding-top:20px;}
 .topnav a {float: middle;display: block;color: rgb(255, 255, 255);text-align:center;
-  padding:30px;text-decoration:none;display:inline;}
+           padding:30px;text-decoration:none;display:inline;}
 .topnav a:hover {color: grey;}
 .topnav .icon {display: none;}
-
-.jumbotron{background-image:url("/img/bkg.jpg");background-attachment:fixed;background-size:cover;
-            height:1000px;background-repeat:no-repeat;margin:0px;background-position:center;}
   
 .intro{background-color:rgb(49, 54, 51, .95);padding:50px;margin:40px 40px 80px 40px;}
 
@@ -58,7 +59,8 @@ a:visited{color:white;text-decoration:none;font-weight:bold;}
                                      'item7 item8 item8'
                                      'item9 item9 item9';
                  grid-template-columns: 50px 0px auto;}
- .jumbotron{height:500px}}
+ .jumbotron{height:500px;}
+ .column3{width:95%;}}
 
 
   
