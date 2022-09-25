@@ -3,7 +3,7 @@
 
 .jumbotron{background-image:url("/img/bkg.jpg");background-attachment:fixed;background-size:cover;
             height:1000px;background-repeat:no-repeat;margin:0px;background-position:center;}
-.title{position: absolute;top: 50%;width: 100%;text-align: center;}
+.title{position: absolute;top: 400px;text-align: center;}
 
 .topnav {float:center;text-align:center;font-family:IBM;font-size:24px;padding-top:20px;}
 .topnav a {float: middle;display: block;color: rgb(255, 255, 255);text-align:center;
