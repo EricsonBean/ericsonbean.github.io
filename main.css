@@ -26,7 +26,7 @@ a:link {color:rgb(0, 0, 0);text-decoration:none;font-weight:bold;}
 a:visited{color:rgb(0, 0, 0);text-decoration:none;font-weight:bold;}
 
 .column3{float:left;width:30%;padding:20px;gap:20px;}
-.column2{float:left;width:45%;padding:20px;gap:20px;}
+.column2{float:left;width:45%;padding:10px;gap:20px;}
 
 .row{background-color:rgba(255,255,255, 0.8);margin:0px 0px 0px 0px;padding:40px 40px 40px 40px;}
 .row:after{content:"";display:table;clear:both;}
