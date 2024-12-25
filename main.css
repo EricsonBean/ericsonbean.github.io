@@ -10,7 +10,7 @@
 .topnav a:hover {color: grey;}
 .topnav .icon {display: none;}
   
-.intro{background-color:rgba(255, 255, 255, 0.89);padding:5px;margin:10px;border-radius:25px;}
+.intro{background-color:rgba(255, 255, 255, 0.89);padding:5px;margin:10px;border-radius:25px;background-image:"tree_bkg.jpg"}
 img{border-radius:25px;padding:5px;}
 .body{background-image:  "/img/Slot1.PNG";
       background-color:rgb(255, 255, 255);
