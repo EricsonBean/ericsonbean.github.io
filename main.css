@@ -11,7 +11,7 @@
 .topnav .icon {display: none;}
   
 .intro{background-color:rgba(255, 255, 255, 0.89);padding:5px;margin:10px;border-radius:25px;}
-
+img{border-radius:25px;}
 .body{background-image:  "/img/Slot1.PNG";
       background-color:rgb(255, 255, 255);
       margin:0px 0px 0px 0px;background-attachment: fixed;background-size: cover;
