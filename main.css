@@ -20,8 +20,8 @@ p2{color:rgb(0,0,0);font-family:overpass;font-size:16px;margin-left: 20px;}
 a:link {color:rgb(0, 0, 0);text-decoration:none;font-weight:bold;}
 a:visited{color:rgb(0, 0, 0);text-decoration:none;font-weight:bold;}
 
-.column3{float:left;width:30%;padding:20px;gap:20px;}
-.column2{float:left;width:45%;padding:10px;gap:20px;}
+.column3{float:left;width:30%;padding:10px;gap:10px;}
+.column2{float:left;width:45%;padding:10px;gap:10px;}
 
 .row{background-color:rgba(255,255,255, 0.89);margin:0px 0px 0px 0px;padding:40px 40px 40px 40px;}
 .row:after{content:"";display:table;clear:both;}
