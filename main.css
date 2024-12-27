@@ -14,7 +14,7 @@
 img{border-radius:25px;padding:5px;}
 .body{background-image:  "/img/Slot1.PNG";
       background-color:rgb(255, 255, 255,0.89);
-      margin:10px; padding:5px; background-attachment: fixed;background-size: cover;
+      margin:10px; padding:15px; gap:5px; background-attachment: fixed;background-size: cover;
       background-repeat: no-repeat;}
 
 h1{color:rgb(0, 0, 0);text-align:center;font-family:IBM;font-size:80px;margin:0px;}
