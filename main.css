@@ -21,7 +21,7 @@ a:link {color:rgb(0, 0, 0);text-decoration:none;font-weight:bold;}
 a:visited{color:rgb(0, 0, 0);text-decoration:none;font-weight:bold;}
 
 .column3{float:left;width:33%;padding:0px;gap:0px;}
-.column2{float:left;width:45%;padding:0px;gap:0px;}
+.column2{float:left;width:49%;padding:0px;gap:0px;}
 
 .row{background-color:rgba(255,255,255, 0.89);margin:0px;padding:0px;}
 .row:after{content:"";display:table;clear:both;}
