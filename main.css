@@ -12,9 +12,9 @@ img{border-radius:25px;}
       background-repeat: no-repeat;margin:10px;padding:0px;}
 
 h1{color:rgb(0, 0, 0);text-align:center;font-family:IBM;font-size:80px;margin:0px;}
-h2{color:rgb(0, 0, 0);text-align:center;font-family:IBM;font-size:50px;margin:0px;}
-h3{color:rgb(0, 0, 0);font-family:IBM;text-align:left;font-size:24px;margin:0px;}
-p1{color:rgb(0,0,0);font-family:overpass;font-size:24px}
+h2{color:rgb(0, 0, 0);text-align:center;font-family:IBM;font-size:50px;margin:0px;font-weight:normal;}
+h3{color:rgb(0, 0, 0);font-family:IBM;text-align:left;font-size:24px;margin:0px;font-weight:normal;}
+p1{color:rgb(0,0,0);font-family:overpass;font-size:24px;font-weight:normal;}
 p2{color:rgb(0,0,0);font-family:overpass;font-size:16px;margin-left: 20px;}
 
 a:link {color:rgb(0, 0, 0);text-decoration:none;font-weight:normal;}
@@ -48,8 +48,8 @@ a:visited{color:rgb(34, 34, 34);text-decoration:none;font-weight:normal;}
 @media only screen and (max-width: 1200px){
       h1{color:rgb(0, 0, 0);text-align:center;font-family:IBM;font-size:50px;margin:0px;}
       h2{color:rgb(0, 0, 0);text-align:center;font-family:IBM;font-size:44px;margin:0px;font-weight:normal;}
-      h3{color:rgb(0, 0, 0);font-family:IBM;text-align:left;font-size:32px;margin:0px;}
-      p1{color:rgb(0,0,0);font-family:overpass;font-size:32px}
+      h3{color:rgb(0, 0, 0);font-family:IBM;text-align:left;font-size:32px;margin:0px;font-weight:normal;}
+      p1{color:rgb(0,0,0);font-family:overpass;font-size:32px;font-weight:normal;}
       p2{color:rgb(0,0,0);font-family:overpass;font-size:24px;margin-left: 20px;}
       .column3{width:100%;}
       .column2{width:100%;} 
