@@ -9,7 +9,7 @@ img{border-radius:25px;}
 .body{background-image:  "/img/Slot1.PNG";
       background-color:rgb(255, 255, 255,0.89);
       background-attachment: fixed;background-size: cover;
-      background-repeat: no-repeat;}
+      background-repeat: no-repeat;margin:0px;padding:0px;}
 
 h1{color:rgb(0, 0, 0);text-align:center;font-family:IBM;font-size:80px;margin:0px;}
 h2{color:rgb(0, 0, 0);text-align:center;font-family:IBM;font-size:50px;margin:0px;}
@@ -20,10 +20,10 @@ p2{color:rgb(0,0,0);font-family:overpass;font-size:16px;margin-left: 20px;}
 a:link {color:rgb(0, 0, 0);text-decoration:none;font-weight:bold;}
 a:visited{color:rgb(0, 0, 0);text-decoration:none;font-weight:bold;}
 
-.column3{float:left;width:33%;padding:0px;gap:0px;}
-.column2{float:left;width:49%;padding:0px;gap:0px;}
+.column3{float:center;width:33%;padding:0px;gap:0px;}
+.column2{float:center;width:49%;padding:0px;gap:0px;}
 
-.row{background-color:rgba(255,255,255, 0.89);margin:0px 0px 0px 0px;padding:0;}
+.row{background-color:rgba(255,255,255, 0.89);margin:0px;padding:0px;}
 .row:after{content:"";display:table;clear:both;}
 .blog{background-color:rgb(255,255,255,0.89);padding:5px;gap:5px;margin:10px;border-radius:25px;}
 
