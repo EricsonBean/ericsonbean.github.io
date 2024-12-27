@@ -14,7 +14,7 @@
 img{border-radius:25px;padding:5px;}
 .body{background-image:  "/img/Slot1.PNG";
       background-color:rgb(255, 255, 255,0.89);
-      margin:10px; padding:15px; gap:5px; background-attachment: fixed;background-size: cover;
+      background-attachment: fixed;background-size: cover;
       background-repeat: no-repeat;}
 
 h1{color:rgb(0, 0, 0);text-align:center;font-family:IBM;font-size:80px;margin:0px;}
@@ -31,7 +31,7 @@ a:visited{color:rgb(0, 0, 0);text-decoration:none;font-weight:bold;}
 
 .row{background-color:rgba(255,255,255, 0.8);margin:0px 0px 0px 0px;padding:40px 40px 40px 40px;}
 .row:after{content:"";display:table;clear:both;}
-.blog{background-color:rgb(214, 210, 210);padding:0px;gap:0px;margin:0px 0px 0px 0px;border-radius:25px;}
+.blog{background-color:rgb(214, 210, 210);padding:5px;gap:5px;margin:10px;border-radius:25px;}
 
 .grid-container {background-color:rgb(255,255,255);display:grid;gap:20px;padding: 80px 40px 80px 40px;
                    margin:80px 40px 80px 40px;
