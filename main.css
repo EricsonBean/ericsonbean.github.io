@@ -24,13 +24,13 @@ nav a {
 
 nav a:hover {background-color: #ddd;}
 .hero-image {
-  background-image: url=(https://github.com/EricsonBean/ericsonbean.github.io/blob/master/img/Intro.jpg);
+  background-image: "../img/Intro.jpg";
   background-color: #cccccc;
-  height: 500px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;}
+  position: relative;
+  min-height:300px;}
 
 .intro{background-image:"img/Strawberry.jpg";background-size:cover;background-position:relative;min-height: 240px;}
 img{border-radius:25px;}
