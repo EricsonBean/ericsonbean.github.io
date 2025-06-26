@@ -81,6 +81,13 @@ a:visited{color:rgb(34, 34, 34);text-decoration:none;font-weight:normal;}
       margin-left: .25em;}
 
 @media only screen and (max-width: 800px){
+h1{font-size:50px}
+h2{font-size:40px}
+h3{font-size:24px;}
+h4{font-size:32px}
+p1{font-size:16px;}
+p2{font-size:16px}
+p3{font-size:12px;}
     .route-grid {
         grid-row-gap: 8px;
         grid-template: "route route route route route" "distance distance vert difficulty favorite" 40px / 1fr 1fr 1fr 1fr 1fr
