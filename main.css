@@ -82,8 +82,7 @@ a:visited{color:rgb(34, 34, 34);text-decoration:none;font-weight:normal;}
 @media only screen and (max-width: 800px){
     .route-grid {
         grid-row-gap: 8px;
-        grid-template: "route route route route route" "distance distance vert difficulty favorite" 40px / auto 70px 60px 80px 80px auto;
-       }}
+        grid-template: "route route route route route" "distance distance vert difficulty favorite" 40px / 1fr 1fr 1fr 1fr 1fr;}}
 
   
 
