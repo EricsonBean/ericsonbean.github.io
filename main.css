@@ -80,7 +80,7 @@ a:visited{color:rgb(34, 34, 34);text-decoration:none;font-weight:normal;}
     .separator:not(:empty)::after {
       margin-left: .25em;}
 
-@media only screen and (max-width: 800px){
+@media only screen and (min-device-width: 601px) and (max-device-width: 800px){
 h1{font-size:50px}
 h2{font-size:40px}
 h3{font-size:24px;}
@@ -88,7 +88,7 @@ h4{font-size:32px}
 .route-grid {
   grid-row-gap: 8px;
   grid-template: "route route route route route" "distance distance vert difficulty favorite" 40px / 1fr 1fr 1fr 1fr 1fr}}
-@media only screen and (max-width: 600px){
+@media only screen and (min-device-width: 451px) and (max-device-width: 600px){
 h1{font-size:40px}
 h2{font-size:30px}
 h3{font-size:24px;}
@@ -97,7 +97,7 @@ h4{font-size:32px}
   grid-row-gap: 8px;
   grid-template: "route route route route route" "distance distance vert difficulty favorite" 40px / 40px 1fr 1fr 1fr 1fr}}
 
-@media only screen and (max-width: 450px){
+@media only screen and (max-device-width: 450px){
 h1{font-size:30px}
 h2{font-size:30px}
 h3{font-size:24px;}
