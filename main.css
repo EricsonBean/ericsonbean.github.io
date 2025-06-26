@@ -23,15 +23,10 @@ nav a {
   color: #333;}
 
 nav a:hover {background-color: #ddd;}
-
-.title{position: absolute;top: 400px;text-align: center;}
  
 .intro{background-image:"Intro.jpg";background-size:cover;background-position:relative;min-height: 240px;opacity: .96;background-color: #0000;}
+
 img{border-radius:25px;}
-.body{background-image:  "/img/Slot1.PNG";
-      background-color:rgb(255, 255, 255,0.89);
-      background-attachment: fixed;background-size: cover;
-      background-repeat: no-repeat;margin:10px;padding:0px;}
 
 h1{color:rgb(0, 0, 0);text-align:center;font-family:IBM;font-size:60px;margin:0px;}
 h2{color:rgb(0, 0, 0);text-align:center;font-family:IBM;font-size:50px;margin:0px;font-weight:normal;}
