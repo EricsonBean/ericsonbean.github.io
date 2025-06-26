@@ -24,7 +24,7 @@ nav a {
 
 nav a:hover {background-color: #ddd;}
  
-.intro{background-image:"Intro.jpg";background-size:cover;background-position:relative;min-height: 240px;opacity: .96;background-color: #0000;}
+.intro{background-image:"/img/Intro.jpg";background-size:cover;background-position:relative;min-height: 240px;opacity: .96;background-color: #0000;}
 
 img{border-radius:25px;}
 
