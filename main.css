@@ -80,8 +80,6 @@ a:visited{color:rgb(34, 34, 34);text-decoration:none;font-weight:normal;}
     .separator:not(:empty)::after {
       margin-left: .25em;}
 
-<meta content="width=device-width, initial-scale=1" name="viewport" />
-
 @media screen and (max-width: 800px){
     .route-grid {
         grid-row-gap: 8px;
