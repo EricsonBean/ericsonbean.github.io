@@ -32,7 +32,7 @@ nav a:hover {background-color: #ddd;}
   background-size: cover;
   position: relative;}
 
-.intro{background-image:"img/Intro.jpg";background-size:cover;background-position:relative;min-height: 240px;}
+.intro{background-image:"img/Strawberry.jpg";background-size:cover;background-position:relative;min-height: 240px;}
 img{border-radius:25px;}
 
 h1{color:rgb(0, 0, 0);text-align:center;font-family:IBM;font-size:60px;margin:0px;}
