@@ -84,19 +84,9 @@ a:visited{color:rgb(34, 34, 34);text-decoration:none;font-weight:normal;}
       margin-left: .25em;
     }
 @media only screen and (max-width: 800px){
-      h1{color:rgb(0, 0, 0);text-align:center;font-family:IBM;font-size:50px;margin:0px;}
-      h2{color:rgb(0, 0, 0);text-align:center;font-family:IBM;font-size:44px;margin:0px;font-weight:normal;}
-      h3{color:rgb(0, 0, 0);font-family:IBM;font-size:32px;margin:0px;font-weight:normal;}
-      p1{color:rgb(0,0,0);font-family:overpass;font-size:32px;font-weight:normal;}
-      p2{color:rgb(0,0,0);font-family:overpass;font-size:24px;margin-left: 20px;text-align:right;}
-      .column3{width:100%;}
-      .column2{width:100%;} 
- }
-
-@media screen and (max-width:700px) {
     .route-grid {
         grid-row-gap: 8px;
-        grid-template: "route route route route route" "distance distance vert difficulty favorite" 40px / auto 70px 60px 80px 80px auto ;
+        grid-template: "route route route route route" "distance distance vert difficulty favorite" 40px / auto 70px 60px 80px 80px auto;
        }}
 
   
