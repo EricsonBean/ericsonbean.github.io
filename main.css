@@ -26,7 +26,7 @@ nav a:hover {background-color: #ddd;}
 
 .title{position: absolute;top: 400px;text-align: center;}
  
-.intro{background-color:rgba(255, 255, 255, 0.89);padding:5px;margin:10px;border-radius:25px;background-image:"tree_bkg.jpg"}
+.intro{background-image:"Intro.jpg";background-size:cover;background-position:relative;min-height: 240px;opacity: .96;background-color: #0000;}
 img{border-radius:25px;}
 .body{background-image:  "/img/Slot1.PNG";
       background-color:rgb(255, 255, 255,0.89);
