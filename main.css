@@ -24,7 +24,7 @@ nav a {
 
 nav a:hover {background-color: #ddd;}
 .hero-image {
-  background-image:"img/Intro.jpg";
+  background-image: url=(https://github.com/EricsonBean/ericsonbean.github.io/blob/master/img/Intro.jpg);
   background-color: #cccccc;
   height: 500px;
   background-position: center;
