@@ -30,6 +30,27 @@ a:visited{color:rgb(34, 34, 34);text-decoration:none;font-weight:normal;}
 .blog{background-color:rgb(255,255,255,0.89);padding:5px;gap:0px;margin:20px;border-radius:25px;}
 .strava-embed-placeholder{width:100%;height:auto;}
 
+.route { grid-area: route; }
+.distance { grid-area: distance; }
+.vert { grid-area: vert; }
+.difficulty { grid-area: difficulty; }
+.favorite { grid-area: favorite; }
+
+.route-grid {
+    grid-template: "route distance vert difficulty favorite" "route distance vert difficulty favorite";
+    grid-row-gap: 16px;
+    align-items: center;
+    font-family: Oxygen, sans-serif;
+    font-size: 11.5px;
+    line-height: 120%;
+    display: grid;}
+
+@media screen and (max-width: 479px) {
+    .route-grid {
+        grid-row-gap: 8px;
+        grid-template: "route route route route route" "distance distance vert difficulty favorite";}}
+
+
 .separator {
       display: flex;
       align-items: center;
