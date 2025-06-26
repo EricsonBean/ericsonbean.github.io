@@ -17,15 +17,22 @@ nav li {
   margin: 0 10px;}
 
 nav a {
-  display: inline-block; /* Allow padding */
+  display: inline-block;
   padding: 10px 15px;
-  text-decoration: none; /* Remove underline */
+  text-decoration: none;
   color: #333;}
 
 nav a:hover {background-color: #ddd;}
- 
-.intro{background-image:"/img/Intro.jpg";background-size:cover;background-position:relative;min-height: 240px;opacity: .96;background-color: #0000;}
+.hero-image {
+  background-image:"/img/Intro.jpg";
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;}
 
+.intro{background-image:"/img/Intro.jpg";background-size:cover;background-position:relative;min-height: 240px;}
 img{border-radius:25px;}
 
 h1{color:rgb(0, 0, 0);text-align:center;font-family:IBM;font-size:60px;margin:0px;}
