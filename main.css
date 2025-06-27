@@ -45,6 +45,8 @@ p3{color:rgb(0,0,0);font-family:overpass;font-size:12px;font-weight:normal;text-
 a:link {color:rgb(0, 0, 0);text-decoration:none;font-weight:normal;}
 a:visited{color:rgb(34, 34, 34);text-decoration:none;font-weight:normal;}
 
+iframe {min-height: 500px;}
+
 .column3{float:left;width:33%;padding:0px;gap:0px;}
 .column2{float:left;width:49%;padding:0px;gap:0px;}
 
