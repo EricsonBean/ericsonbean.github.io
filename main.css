@@ -103,9 +103,9 @@ h1{font-size:30px}
 h2{font-size:30px}
 h3{font-size:24px;}
 h4{font-size:32px}
-p1{font-size:28px;}
-p2{font-size:20px;}
-p3{font-size:16px;;}
+p1{font-size:20px;}
+p2{font-size:16px;}
+p3{font-size:12px;;}
 .route-grid {
   grid-row-gap: 8px;
   grid-template: "route route route route route" "distance distance vert difficulty favorite" 40px / 20px 1fr 1fr 1fr 1fr}}
