@@ -25,23 +25,15 @@ nav a {
 nav a:hover {background-color: #ddd;}
 
 .header {
-  position: relative; /* Container is positioned relatively */
-  display: inline-block; /* Adjust as needed */}
-
-.header img {
-  display: block;
-  width: auto;
-  height: auto;}
+  position: relative;
+  text-align: center;}
 
 .title {
-  position: absolute; /* Text is positioned absolutely */
-  top: 50%; /* Adjust as needed for vertical positioning */
-  left: 50%; /* Adjust as needed for horizontal positioning */
-  transform: translate(-50%, -50%); /* Centers the text */
-  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for readability */
-  padding: 10px 20px; /* Padding around the text */
-  text-align: center; /* Text alignment */}
-
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);}
+  
 h1{color:rgb(0, 0, 0);text-align:center;font-family:IBM;font-size:60px;margin:0px;}
 h2{color:rgb(0, 0, 0);text-align:center;font-family:IBM;font-size:50px;margin:0px;font-weight:normal;}
 h3{color:rgb(0, 0, 0);font-family:IBM;text-align:left;font-size:24px;margin:0px;font-weight:normal;}
