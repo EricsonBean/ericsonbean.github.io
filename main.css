@@ -23,17 +23,25 @@ nav a {
   color: #333;}
 
 nav a:hover {background-color: #ddd;}
-.hero-image {
-  background-image: "../img/Intro.jpg";
-  background-color: #cccccc;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  min-height:300px;}
 
-.intro{background-image:"img/Strawberry.jpg";background-size:cover;background-position:relative;min-height: 240px;}
-img{border-radius:25px;}
+.image-container {
+  position: relative; /* Container is positioned relatively */
+  display: inline-block; /* Adjust as needed */
+}
+
+.header img {
+  display: block;
+  width: 100%;
+  height: auto;}
+
+.title {
+  position: absolute; /* Text is positioned absolutely */
+  top: 50%; /* Adjust as needed for vertical positioning */
+  left: 50%; /* Adjust as needed for horizontal positioning */
+  transform: translate(-50%, -50%); /* Centers the text */
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for readability */
+  padding: 10px 20px; /* Padding around the text */
+  text-align: center; /* Text alignment */}
 
 h1{color:rgb(0, 0, 0);text-align:center;font-family:IBM;font-size:60px;margin:0px;}
 h2{color:rgb(0, 0, 0);text-align:center;font-family:IBM;font-size:50px;margin:0px;font-weight:normal;}
