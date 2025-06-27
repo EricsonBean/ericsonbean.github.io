@@ -24,10 +24,9 @@ nav a {
 
 nav a:hover {background-color: #ddd;}
 
-.image-container {
+.header {
   position: relative; /* Container is positioned relatively */
-  display: inline-block; /* Adjust as needed */
-}
+  display: inline-block; /* Adjust as needed */}
 
 .header img {
   display: block;
