@@ -53,7 +53,7 @@ iframe {min-height: 500px;}
 .row{background-color:rgba(255,255,255, 0.89);margin:0px;padding:0px;}
 .row:after{content:"";display:table;clear:both;}
 .blog{background-color:rgb(255,255,255,0.89);padding:5px;gap:0px;margin:20px;border-radius:25px;}
-.strava-embed-placeholder{width:100%;height:auto;}
+.strava-embed-placeholder{width:100%;min-height:500px;}
 
 .route { grid-area: route; text-align:left;}
 .distance { grid-area: distance; text-align:right;}
@@ -104,8 +104,8 @@ h1{font-size:30px}
 h2{font-size:30px}
 h3{font-size:24px;}
 h4{font-size:32px}
-p1{font-size:16px;}
-p2{font-size:12px}
+p1{font-size:20px;}
+p2{font-size:16px}
 p3{font-size:12px;}
 .route-grid {
   grid-row-gap: 8px;
