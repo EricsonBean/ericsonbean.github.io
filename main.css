@@ -26,7 +26,8 @@ nav a:hover {background-color: #ddd;}
 
 .header {
   position: relative;
-  text-align: center;}
+  text-align: center;
+  margin: 0;}
 
 .title {
   position: absolute;
