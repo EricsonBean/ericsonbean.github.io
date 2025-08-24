@@ -101,8 +101,7 @@ p1{font-size:22px;}
 p2{font-size:18px;}
 p3{font-size:12px;}
 .route-grid {
-  line-height: 24px;
-  grid-template: "route route route route route" 15px "distance distance vert difficulty favorite" 20px / 10px 1fr 1fr 1fr 1fr;}}
+  grid-template: "route route route route route" 15px "distance distance vert difficulty favorite" 24px / 10px 1fr 1fr 1fr 1fr;}}
 
 @media only screen and (max-width: 450px){
 h1{font-size:24px;}
@@ -113,6 +112,5 @@ p1{font-size:16px;}
 p2{font-size:14px;}
 p3{font-size:12px;}
 .route-grid {
-  line-height: 24px;
   grid-template: "route route route route route" 5px "distance distance vert difficulty favorite" 20px / 10px 1fr 1fr 1fr 1fr;}}
     
