@@ -55,10 +55,10 @@ iframe {min-height: 500px;}
 .strava-embed-placeholder{width:100%;min-height:500px;}
 
 .route { grid-area: route; text-align:left;}
-.distance { grid-area: distance; text-align:right;}
-.vert { grid-area: vert; text-align:right}
-.difficulty{grid-area: difficulty; text-align:right; align-items:right;}
-.favorite {grid-area: favorite; text-align:right;}
+.distance { grid-area: distance; text-align:right; vertical-align: top;}
+.vert { grid-area: vert; text-align:right; vertical-align: top;}
+.difficulty{grid-area: difficulty; text-align:right; align-items:right; vertical-align: top;}
+.favorite {grid-area: favorite; text-align:right; vertical-align: top;}
 
 .route-grid {
   grid-template: "route distance distance vert difficulty favorite" 40px / 4fr 1fr 1fr 1fr 1fr 1fr;
@@ -66,8 +66,7 @@ iframe {min-height: 500px;}
     font-family: Oxygen, sans-serif;
     line-height: 120%;
     display: grid;
-    margin-left:20px;
-    height:200px;}
+    margin-left:20px;}
 .separator {
       display: flex;
       align-items: center;
