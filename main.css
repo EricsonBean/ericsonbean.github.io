@@ -90,9 +90,6 @@ h1{font-size:44px;}
 h2{font-size:36px;}
 h3{font-size:24px;}
 h4{font-size:32px;}
-p1{font-size:16px;}
-p2{font-size:14px;}
-p3{font-size:12px;}
 .route-grid {
   grid-template: "route route route route route" 30px "distance distance vert difficulty favorite" 40px / 60px 1fr 1fr 1fr 1fr;}}
 @media only screen and (min-width: 451px) and (max-width: 600px){
@@ -100,6 +97,9 @@ h1{font-size:36px;}
 h2{font-size:30px;}
 h3{font-size:24px;}
 h4{font-size:32px;}
+p1{font-size:16px;}
+p2{font-size:14px;}
+p3{font-size:12px;}
 .route-grid {
   grid-template: "route route route route route" 30px "distance distance vert difficulty favorite" 40px / 40px 1fr 1fr 1fr 1fr;}}
 
