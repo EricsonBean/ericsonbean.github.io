@@ -114,5 +114,5 @@ p2{font-size:14px;}
 p3{font-size:12px;}
 .route-grid {
   line-height: 24px;
-  grid-template: "route route route route route" 20px "distance distance vert difficulty favorite" 20px / 10px 1fr 1fr 1fr 1fr;}}
+  grid-template: "route route route route route" 5px "distance distance vert difficulty favorite" 20px / 10px 1fr 1fr 1fr 1fr;}}
     
