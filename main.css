@@ -67,7 +67,9 @@ iframe {min-height: 500px;}
     line-height: 120%;
     display: grid;
     margin-left:20px;
-    aspect-ratio:17/3;}
+    aspect-ratio:17/3;
+    background-repeat: no-repeat;
+    background-size: contain";}
 .separator {
       display: flex;
       align-items: center;
