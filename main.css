@@ -37,10 +37,10 @@ nav a:hover {background-color: #ddd;}
   
 h1{color:rgb(0, 0, 0);text-align:center;font-family:IBM;font-size:60px;margin:0px;}
 h2{color:rgb(0, 0, 0);text-align:center;font-family:IBM;font-size:50px;margin:0px;font-weight:normal;}
-h3{color:rgb(0, 0, 0);font-family:IBM;text-align:left;font-size:24px;margin:0px;font-weight:normal;}
+h3{color:rgb(0, 0, 0);font-family:IBM;text-align:left;font-size:36px;margin:0px;font-weight:normal;}
 h4{color:rgb(0, 0, 0);text-align:center;font-family:IBM;font-size:32px;margin:0px;font-weight:normal;}
-p1{color:rgb(0,0,0);font-family:overpass;font-size:20px;font-weight:normal;}
-p2{color:rgb(0,0,0);font-family:overpass;font-size:16px;margin-left: 20px;text-align:right;}
+p1{color:rgb(0,0,0);font-family:overpass;font-size:28px;font-weight:normal;}
+p2{color:rgb(0,0,0);font-family:overpass;font-size:24px;margin-left: 20px;text-align:right;}
 p3{color:rgb(0,0,0);font-family:overpass;font-size:12px;font-weight:normal;text-align:right;}
 
 a:link {color:rgb(0, 0, 0);text-decoration:none;font-weight:normal;}
