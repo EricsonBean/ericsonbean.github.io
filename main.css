@@ -65,7 +65,7 @@ iframe {min-height: 500px;}
   grid-template: "route distance distance vert difficulty favorite" 40px / 4fr 1fr 1fr 1fr 1fr 1fr;
     grid-row-gap: 16px;
     font-family: Oxygen, sans-serif;
-    line-height: 120%;
+    line-height: 36px;
     display: grid;
     margin-left:20px;
     aspect-ratio:17/3;
