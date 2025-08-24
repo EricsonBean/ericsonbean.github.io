@@ -85,30 +85,30 @@ iframe {min-height: 500px;}
       margin-left: .25em;}
 
 @media only screen and (min-width: 601px) and (max-width: 850px){
-h1{font-size:44px}
-h2{font-size:36px}
+h1{font-size:44px;}
+h2{font-size:36px;}
 h3{font-size:24px;}
-h4{font-size:32px}
+h4{font-size:32px;}
 .route-grid {
   grid-row-gap: 8px;
   grid-template: "route route route route route" "distance distance vert difficulty favorite" 40px / 60px 1fr 1fr 1fr 1fr}}
 @media only screen and (min-width: 451px) and (max-width: 600px){
-h1{font-size:36px}
-h2{font-size:30px}
+h1{font-size:36px;}
+h2{font-size:30px;}
 h3{font-size:24px;}
-h4{font-size:32px}
+h4{font-size:32px;}
 .route-grid {
   grid-row-gap: 8px;
   grid-template: "route route route route route" "distance distance vert difficulty favorite" 40px / 40px 1fr 1fr 1fr 1fr}}
 
 @media only screen and (max-width: 450px){
-h1{font-size:24px}
-h2{font-size:22px}
+h1{font-size:24px;}
+h2{font-size:22px;}
 h3{font-size:20px;}
-h4{font-size:32px}
+h4{font-size:32px;}
 p1{font-size:16px;}
 p2{font-size:14px;}
-p3{font-size:12px;;}
+p3{font-size:12px;}
 .route-grid {
   grid-row-gap: 8px;
   grid-template: "route route route route route" "distance distance vert difficulty favorite" 40px / 20px 1fr 1fr 1fr 1fr}}
