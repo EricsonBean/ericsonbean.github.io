@@ -66,10 +66,7 @@ iframe {min-height: 500px;}
     font-family: Oxygen, sans-serif;
     line-height: 120%;
     display: grid;
-    margin-left:20px;
-    position: absolute;
-  top: 10%;
-  left: 10%;}
+    margin-left:20px;}
 .separator {
       display: flex;
       align-items: center;
