@@ -117,7 +117,7 @@ h4{font-size:32px;}
 p1{font-size:16px;}
 p2{font-size:14px;}
 p3{font-size:12px;}
-mark {padding: 2px 6px; border-radius: 10px;}
+mark {padding: 0px 4px; border-radius: 10px;}
 .route-grid {
-  grid-template: "route route route route route" 0px "distance distance vert difficulty favorite" 16px / 10px 1fr 1fr 1fr 1fr;}}
+  grid-template: "route route route route route" 5px "distance distance vert difficulty favorite" 16px / 10px 1fr 1fr 1fr 1fr;}}
     
