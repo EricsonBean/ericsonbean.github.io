@@ -67,8 +67,9 @@ iframe {min-height: 500px;}
     grid-row-gap: 16px;
     font-family: Oxygen, sans-serif;
     display: grid;
-    margin-left:20px;
-    margin-top:5px;
+    margin-left:00px;
+    margin-top:10px;
+    border-radius: 00px;
     aspect-ratio:17/3;
     background-repeat: no-repeat;
     background-size: contain;}
