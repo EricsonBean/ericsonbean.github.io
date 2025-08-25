@@ -42,7 +42,7 @@ h3{color:rgb(0, 0, 0);font-family:IBM;text-align:left;font-size:36px;margin:0px;
 h4{color:rgb(0, 0, 0);text-align:center;font-family:IBM;font-size:32px;margin:0px;font-weight:normal;}
 p1{color:rgb(0,0,0);font-family:overpass;font-size:28px;font-weight:normal;}
 p2{color:rgb(0,0,0);font-family:overpass;font-size:24px;margin-left: 20px;text-align:right;}
-p3{color:rgb(0,0,0);font-family:overpass;font-size:12px;font-weight:normal;text-align:right;}
+p3{color:rgb(0,0,0);font-family:overpass;font-size:18px;font-weight:normal;text-align:right;}
 mark {background-color: rgba(255, 255, 255, 0.5); padding: 8px 8px;border-radius: 10px;}
 a:link {color:rgb(0, 0, 0);text-decoration:none;font-weight:normal;}
 a:visited{color:rgb(34, 34, 34);text-decoration:none;font-weight:normal;}
@@ -56,7 +56,7 @@ iframe {min-height: 500px;}
 .row:after{content:"";display:table;clear:both;}
 .strava-embed-placeholder{width:100%;min-height:500px;}
 
-.route { grid-area: route; text-align:left;}
+.route { grid-area: route; text-align:left;vertical-align:bottom;}
 .distance { grid-area: distance; text-align:right;}
 .vert { grid-area: vert; text-align:right;}
 .difficulty{grid-area: difficulty; text-align:right; align-items:right;}
@@ -91,16 +91,19 @@ h1{font-size:44px;}
 h2{font-size:36px;}
 h3{font-size:24px;}
 h4{font-size:32px;}
-mark {padding: 8px 6px; border-radius: 10px;}
+p1{font-size:22px;}
+p2{font-size:18px;}
+p3{font-size:18px;}
+mark {padding: 6px 6px; border-radius: 10px;}
 .route-grid {
-  grid-template: "route route route route route" 20px "distance distance vert difficulty favorite" 40px / 60px 1fr 1fr 1fr 1fr;}}
+  grid-template: "route route route route route" 25px "distance distance vert difficulty favorite" 40px / 60px 1fr 1fr 1fr 1fr;}}
 @media only screen and (min-width: 451px) and (max-width: 600px){
 h1{font-size:36px;}
 h2{font-size:30px;}
 h3{font-size:24px;}
 h4{font-size:32px;}
-p1{font-size:22px;}
-p2{font-size:18px;}
+p1{font-size:24px;}
+p2{font-size:20px;}
 p3{font-size:12px;}
 mark {padding: 4px 6px; border-radius: 10px;}
 .route-grid {
