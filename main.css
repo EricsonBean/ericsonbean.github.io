@@ -47,14 +47,14 @@ mark {background-color: rgba(255, 255, 255, 0.5); padding: 8px 8px;border-radius
 a:link {color:rgb(0, 0, 0);text-decoration:none;font-weight:normal;}
 a:visited{color:rgb(34, 34, 34);text-decoration:none;font-weight:normal;}
 
-iframe {min-height: 500px;}
+iframe {min-height: 500px;max-width:1000px;}
 
 .column3{float:left;width:33%;padding:0px;gap:0px;}
 .column2{float:left;width:49%;padding:0px;gap:0px;}
 
 .row{background-color:rgba(255,255,255, 0.89);margin:0px;padding:0px;}
 .row:after{content:"";display:table;clear:both;}
-.strava-embed-placeholder{width:100%;min-height:500px;float:middle;}
+.strava-embed-placeholder{width:100%;min-height:500px;float:center;}
 
 .route { grid-area: route; text-align:left;vertical-align:bottom;}
 .distance { grid-area: distance; text-align:right;}
