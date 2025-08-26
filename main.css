@@ -54,7 +54,7 @@ iframe {min-height: 500px;}
 
 .row{background-color:rgba(255,255,255, 0.89);margin:0px;padding:0px;}
 .row:after{content:"";display:table;clear:both;}
-.strava-embed-placeholder{width:100%;min-height:500px;}
+.strava-embed-placeholder{width:100%;min-height:500px;float:middle;}
 
 .route { grid-area: route; text-align:left;vertical-align:bottom;}
 .distance { grid-area: distance; text-align:right;}
