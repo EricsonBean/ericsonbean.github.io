@@ -77,7 +77,7 @@ iframe {min-height: 500px;max-width:1000px;}
     background-size: contain;}
 
 .summary-grid{
-    grid-template: "distance vert difficulty favorite" 40px "high low" 40px;
+    grid-template: "distance vert difficulty favorite" 40px "high high low low" 40px;
     font-family: Oxygen, sans-serif;
     display: grid;}
 
