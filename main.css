@@ -81,7 +81,7 @@ iframe {min-height: 500px;max-width:1000px;}
     grid-template-rows: auto;
     font-family: Oxygen, sans-serif;
     display: grid;}
-
+.blog{padding:10px;}
 .separator {
       display: flex;
       align-items: center;
