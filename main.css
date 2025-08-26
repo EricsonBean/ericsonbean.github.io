@@ -61,8 +61,8 @@ iframe {min-height: 500px;max-width:1000px;}
 .vert { grid-area: vert; text-align:right;}
 .difficulty{grid-area: difficulty; text-align:right; align-items:right;}
 .favorite {grid-area: favorite; text-align:right;}
-.high{grid-area: high; text-align:right; align-items:right;}
-.low{grid-area: low; text-align:right;}
+.high{grid-area: high; text-align:right; align-items:left;padding:5px;}
+.low{grid-area: low; text-align:left;padding 5px;}
 
 .route-grid {
   grid-template: "route distance distance vert difficulty favorite" 40px / 4fr 1fr 1fr 1fr 1fr 1fr;
