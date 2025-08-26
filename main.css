@@ -61,6 +61,8 @@ iframe {min-height: 500px;max-width:1000px;}
 .vert { grid-area: vert; text-align:right;}
 .difficulty{grid-area: difficulty; text-align:right; align-items:right;}
 .favorite {grid-area: favorite; text-align:right;}
+.high{grid-area: high; text-align:right; align-items:right;}
+.low{grid-area: low; text-align:right;}
 
 .route-grid {
   grid-template: "route distance distance vert difficulty favorite" 40px / 4fr 1fr 1fr 1fr 1fr 1fr;
@@ -73,6 +75,12 @@ iframe {min-height: 500px;max-width:1000px;}
     aspect-ratio:17/3;
     background-repeat: no-repeat;
     background-size: contain;}
+
+.summary-grid{
+    grid-template: "distance vert difficulty favorite" 40px "high low" 40px;
+    font-family: Oxygen, sans-serif;
+    display: grid;}
+
 .separator {
       display: flex;
       align-items: center;
