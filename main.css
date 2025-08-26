@@ -79,12 +79,14 @@ iframe {min-height: 500px;max-width:1000px;}
 .summary-grid{
     grid-template: "distance vert difficulty favorite" 40px "high high low low" 40px;
     grid-template-rows: auto;
+    grid-template-columns: auto;
     font-family: Oxygen, sans-serif;
     display: grid;
     text-align:left;
     padding:20px;
     align-items:left;
-    float:left;}
+    float:left;
+    margin-left:0px;}
 .blog{padding:20px;}
 .separator {
       display: flex;
