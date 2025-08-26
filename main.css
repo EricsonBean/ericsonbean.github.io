@@ -62,7 +62,7 @@ iframe {min-height: 500px;max-width:1000px;}
 .difficulty{grid-area: difficulty; text-align:right; align-items:right;}
 .favorite {grid-area: favorite; text-align:right;}
 .high{grid-area: high; text-align:left; align-items:left;padding:5px;}
-.low{grid-area: low; text-align:left;padding 5px;}
+.low{grid-area: low; text-align:left;padding:5px;}
 
 .route-grid {
   grid-template: "route distance distance vert difficulty favorite" 40px / 4fr 1fr 1fr 1fr 1fr 1fr;
@@ -82,9 +82,10 @@ iframe {min-height: 500px;max-width:1000px;}
     font-family: Oxygen, sans-serif;
     display: grid;
     text-align:left;
-    padding:10px;
-    align-items:left;}
-.blog{padding:10px;}
+    padding:20px;
+    align-items:left;
+    float:left;}
+.blog{padding:20px;}
 .separator {
       display: flex;
       align-items: center;
